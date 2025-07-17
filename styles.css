@@ -37,6 +37,12 @@ header {
 }
 
 
+.logo img {
+   width: 100%;
+   max-width: 125px; 
+}
+
+
 
  img {
     max-width: 100%;
@@ -388,10 +394,13 @@ main .hero-image {
         height: unset;
         width: 100%;
         z-index: unset;
-        display: flex;
         justify-content: space-between;
         flex-direction: row;
         gap: unset;
+
+         opacity: unset;
+         transform: translateX(0%);
+         visibility: visible;
     }
 
     ul {
